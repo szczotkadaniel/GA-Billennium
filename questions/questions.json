@@ -1,37 +1,37 @@
 {
     "first": {
-        "question": "Lorem ipsum dolor sit amet, consectetur adipiscing elit?",
-        "answer1": "Lorem",
-        "answer2": "Ipsum",
-        "answer3": "Dolor",
-        "answer4": "Sit"
+        "question": "Wybierz urządzenie",
+        "answer1": "iPhone 8",
+        "answer2": "iPhone X",
+        "answer3": "iPhone 11",
+        "answer4": "iPhone 12"
     },
     "second": {
-        "question": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua?",
-        "answer1": "Amet",
-        "answer2": "Consectetur",
-        "answer3": "Adipiscing",
-        "answer4": "Elit"
+        "question": "Wybierz wersję systemu",
+        "answer1": "iOS 11",
+        "answer2": "iOS 12",
+        "answer3": "iOS 13",
+        "answer4": "iOS 14"
     },
     "third": {
-        "question": "Ut enim ad minim veniam?",
-        "answer1": "Sed",
-        "answer2": "Do",
-        "answer3": "Eiusmod",
-        "answer4": "Tempor"
+        "question": "Wybierz usterkę:",
+        "answer1": "Nie mogę wysyłać wiadomości SMS",
+        "answer2": "Nie mogę odbierać wiadomości SMS",
+        "answer3": "Zamiast niebieskich chmurek są zielone",
+        "answer4": "Czerwony wykrzyknik przy polu wpisywania"
     },
     "fourth": {
-        "question": "Excepteur sint occaecat cupidatat non proident?",
-        "answer1": "Incididunt",
-        "answer2": "Ut",
-        "answer3": "Labore",
-        "answer4": "Et"
+        "question": "Kiedy pojawiła się usterka?",
+        "answer1": "Dzisiaj",
+        "answer2": "Kilka dni",
+        "answer3": "Kilka tygodni",
+        "answer4": "Kilka miesięcy"
     },
     "five": {
-        "question": "Officia deserunt mollit anim id est laborum?",
-        "answer1": "Dolore",
-        "answer2": "Magna",
-        "answer3": "Aliqua",
-        "answer4": "Ut"
+        "question": "Czy wykonałeś jeden z poniższych kroków?",
+        "answer1": "Restart urządzenia",
+        "answer2": "Aktualizacja systemu",
+        "answer3": "Naładowanie baterii",
+        "answer4": "Przywrócenie do ustawień fabrycznych"
     }
 }
