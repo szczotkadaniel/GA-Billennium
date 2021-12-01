@@ -155,7 +155,7 @@ function closeSupportContactModal(){
     console.log(`Close contact form button with ${answers.length} answers`);
     dataLayer.push({
         "event":"makeSteps-messages",
-        "not resolved": `${answers.length} steps and CLOSE contact form`
+        "not_resolved": `${answers.length} steps and CLOSE contact form`
     });
     window.location.reload(true);
 }
@@ -195,6 +195,6 @@ function clickSupportPhoneNumber(){
     console.log(`User click on phone number making ${answers.length} steps`); 
     dataLayer.push({
         "event": "makeSteps-messages",
-        "not resolved": `${answers.length} steps and CONTACT SUPPORT`
+        "not_resolved": `${answers.length} steps and CONTACT SUPPORT`
     })
 }
