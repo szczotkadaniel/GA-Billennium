@@ -3,6 +3,8 @@ import { modalLogin, modalRegister } from './modules/ModalLoginRegister.js';
 modalLogin;
 modalRegister;
 
+
+
 function logoClicked(size){
     console.log("CLICKED: " + size);
     dataLayer.push({
@@ -54,3 +56,4 @@ function searchBtnClicked(){
         "search status": "end"
     })
 }
+
