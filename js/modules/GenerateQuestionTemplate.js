@@ -171,7 +171,7 @@ function onEndComment() {
 
     console.log("Resolved issue - " + answers.length);
     dataLayer.push({
-        "event": "makeSteps-messages",
+        "event": "makeSteps-messages-success",
         "resolved": `${answers.length} steps`
     });
 
@@ -194,7 +194,7 @@ function creatElement(el) {
 function clickSupportPhoneNumber(){
     console.log(`User click on phone number making ${answers.length} steps`); 
     dataLayer.push({
-        "event": "makeSteps-messages",
+        "event": "makeSteps-messages-failed",
         "not_resolved": `${answers.length} steps and CONTACT SUPPORT`
     })
 }
