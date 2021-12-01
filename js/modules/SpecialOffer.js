@@ -11,6 +11,6 @@ function chooseSupportOption(event){
     console.log(offer.split("Offer")[0]);
     dataLayer.push({
         "event": "purchase_support",
-        "option": offer.split("Offer")
+        "option": offer.split("Offer")[0]
     })
 }
