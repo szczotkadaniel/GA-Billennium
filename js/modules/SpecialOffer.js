@@ -8,9 +8,10 @@ fullOffer.addEventListener("click", chooseSupportOption);
 function chooseSupportOption(event){
     console.log(event.target.id);
     let offer = event.target.id;
-    console.log(offer.split("Offer")[0]);
+    let optionOffer = offer.split("Offer")[0]
+    console.log(optionOffer);
     dataLayer.push({
         "event": "purchase_support",
-        "option": offer.split("Offer")[0]
+        "option": optionOffer
     })
 }
