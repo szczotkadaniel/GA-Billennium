@@ -154,7 +154,7 @@ function closeSupportContactModal(){
     endQuestion.style.display = 'none';
     console.log(`Close contact form button with ${answers.length} answers`);
     dataLayer.push({
-        "event":"makeSteps-messages",
+        "event":"makeSteps-messages-failed",
         "not_resolved": `${answers.length} steps and CLOSE contact form`
     });
     window.location.reload(true);
